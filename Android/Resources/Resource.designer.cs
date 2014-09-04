@@ -60,6 +60,9 @@ namespace Android
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f050005
+			public const int finish_work = 2131034117;
+			
 			// aapt resource value: 0x7f050000
 			public const int login = 2131034112;
 			
@@ -68,6 +71,12 @@ namespace Android
 			
 			// aapt resource value: 0x7f050001
 			public const int password = 2131034113;
+			
+			// aapt resource value: 0x7f050004
+			public const int start_work = 2131034116;
+			
+			// aapt resource value: 0x7f050003
+			public const int time = 2131034115;
 			
 			static Id()
 			{
@@ -84,6 +93,9 @@ namespace Android
 			
 			// aapt resource value: 0x7f030000
 			public const int Login = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int Timer = 2130903041;
 			
 			static Layout()
 			{

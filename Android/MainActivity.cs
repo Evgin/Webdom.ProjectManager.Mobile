@@ -61,14 +61,15 @@ namespace Android
 					Next ();
 				}));
 				builder.Show ();
+			} else {
+				Next ();
 			}
-			Next ();
 		}
 
 		void Next ()
 		{
 			RunOnUiThread (delegate {
-
+				StartActivity (typeof(TimerActivity));
 			});
 		}
 

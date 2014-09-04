@@ -1,10 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.026364fe114c2765" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MainActivity.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.N4" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TimerActivity.cs">
     <Files>
-      <File FileName="ProjectManagerApplication.cs" Line="25" Column="4" />
-      <File FileName="..\Common\ServiceLocator.cs" Line="11" Column="65" />
-      <File FileName="MainActivity.cs" Line="25" Column="77" />
+      <File FileName="TimerActivity.cs" Line="46" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

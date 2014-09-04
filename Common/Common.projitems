@@ -16,5 +16,8 @@
     <Compile Include="$(MSBuildThisFileDirectory)ISettingsService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IUserService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)User.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Status.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ServerService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UserService.cs" />
   </ItemGroup>
 </Project>

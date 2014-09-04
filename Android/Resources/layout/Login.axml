@@ -1,27 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:gravity="center_vertical"
-    android:paddingRight="15dp"
-    android:paddingStart="15dp">
-    <EditText
-        android:id="@+id/login"
-        android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp">
+    <LinearLayout
         android:layout_width="match_parent"
-        android:hint="Пароль"
-        android:gravity="center_horizontal" />
-    <EditText
-        android:id="@+id/password"
         android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:hint="Пароль" />
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:hint="Пароль"
+            android:password="true" />
+    </LinearLayout>
+    <LinearLayout
         android:layout_width="match_parent"
-        android:hint="Пароль"
-        android:gravity="center_horizontal"
-        android:password="true" />
-    <Button
-        android:id="@+id/login_btn"
         android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:text="ВОЙТИ" />
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ВОЙТИ" />
+    </LinearLayout>
 </LinearLayout>
